@@ -1,7 +1,11 @@
+html {
+    height: 100%;
+}
 body {
     background-image: url("../images/dust_scratches.png");
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 
 /* Tag Styles */
@@ -67,7 +71,7 @@ header nav ul li {
 main {
     clear: both;
     width: 960px;
-    margin: auto;
+    margin: auto auto 100px auto;
     margin-top: 75px;
 }
 
@@ -120,6 +124,8 @@ main section {
 main section:first-of-type {
     width: 650px;
     padding: 0px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 main section:last-of-type {
@@ -148,7 +154,7 @@ footer {
     height: 100px;
     background-color: #666666;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     border-top: solid #4aaaa5 5px;
 }
