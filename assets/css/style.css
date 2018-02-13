@@ -17,6 +17,11 @@ a {
     padding: 0px;
 }
 
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
 
 /* Header Styles */
 header {
@@ -74,11 +79,17 @@ main h1 {
     border-bottom: solid #dddddd 2px;
 }
 
-main p img {
+section img {
+    margin: 25px 20px auto 50px;
     float: left;
     height: 25%;
     width: 25%;
 }
+
+section p {
+    margin: 25px 50px 25px 50px;
+}
+
 main section {
     display: inline-block;
     background-color: white;
